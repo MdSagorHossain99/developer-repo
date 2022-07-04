@@ -14,7 +14,7 @@ h1{
 }
 
 
-section{
+.flexible-container{
   display: flex;
   margin-bottom: 125px;
 }
@@ -52,4 +52,43 @@ section{
 }
 .half-width p{
   padding-right: 17%;
+}
+.experiene-area{
+  display: block;
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  
+}
+.boxes-shadow{
+  width: 40%;
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 10px;
+  padding-left: 10px;
+  
+
+}
+.boxes-shadow h1{
+  font-size: 40px;
+  padding-left: 3px;
+  
+}
+.first-box-width{
+  margin-left: 5%;
+  margin-right: 2%;
+  border-left: 7px solid rgba(252, 63, 63, 0.966);
+
+}
+.second-box-width{
+  margin-left: 2%;
+  margin-right: 5%;
+  border-left: 7px solid rgba(102, 5, 230, 0.966);
+
+}
+.flexible-container h3{
+  color:orange;
+}
+
+footer p{
+  text-align: center;
 }
